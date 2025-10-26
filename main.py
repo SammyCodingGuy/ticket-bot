@@ -53,7 +53,7 @@ async def ticket(ctx):
         }
     )
 
-    await ticket_channel.send(f'{ctx.author.mention}, Your ticket has been created! Please describe what your applying for and someone will take this ticket.')
+    await ticket_channel.send(f'{ctx.author.mention}, Your ticket has been created! Please describe your issue.')
     await ctx.send(f'Your ticket has been created: {ticket_channel.mention}')
 
 # Command to close a ticket
